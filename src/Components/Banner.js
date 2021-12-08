@@ -13,10 +13,6 @@ function Banner() {
             src={g869}
             alt="First slide"
           />
-          <Carousel.Caption>
-            <h3>Probá los nuevos Macarons!</h3>
-            <p>Vienen en todos tus sabores preferidos: chocolate blanco, coco, nutella, maracuya, limón y café.</p>
-          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
 

@@ -14,6 +14,7 @@
     padding: 10px;
     width: 100%;
     justify-content: center;
+  
   }
 
   .scrollNav {
@@ -32,4 +33,9 @@
     padding: 50px;
     background-color: blue;
     
+  }
+
+  .navcollapse{
+    
+
   }
