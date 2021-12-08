@@ -29,12 +29,12 @@ function App() {
                     <BrowserRouter>
                         <Menu />
                         <Routes>
-                            <Route path="/" element={<HomePage />} />
-                            <Route path="/LoginPage" element={<LoginPage />} />
-                            <Route path="/RegisterPage" element={<RegisterPage />} />
-                            <Route path="/AltaProductoPage" element={<AltaProductoPage />} />
-                            <Route path="/EditarProductoPage" element={<EditarProductoPage />} />
-                            <Route path="/producto/:id" element={<DetallePage />} />
+                            <Route path="mepopycakes/" element={<HomePage />} />
+                            <Route path="mepopycakes/LoginPage" element={<LoginPage />} />
+                            <Route path="mepopycakes/RegisterPage" element={<RegisterPage />} />
+                            <Route path="mepopycakes/AltaProductoPage" element={<AltaProductoPage />} />
+                            <Route path="mepopycakes/EditarProductoPage" element={<EditarProductoPage />} />
+                            <Route path="mepopycakes/producto/:id" element={<DetallePage />} />
                         </Routes>
 
                     </BrowserRouter>
