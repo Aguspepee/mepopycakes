@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mepopycakes/static/css/main.70f42e7d.chunk.css",
-    "main.js": "/mepopycakes/static/js/main.4c452efc.chunk.js",
-    "main.js.map": "/mepopycakes/static/js/main.4c452efc.chunk.js.map",
+    "main.js": "/mepopycakes/static/js/main.cf0c056e.chunk.js",
+    "main.js.map": "/mepopycakes/static/js/main.cf0c056e.chunk.js.map",
     "runtime-main.js": "/mepopycakes/static/js/runtime-main.a1e31e85.js",
     "runtime-main.js.map": "/mepopycakes/static/js/runtime-main.a1e31e85.js.map",
     "static/css/2.7db04559.chunk.css": "/mepopycakes/static/css/2.7db04559.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.7db04559.chunk.css",
     "static/js/2.e6f9b1a7.chunk.js",
     "static/css/main.70f42e7d.chunk.css",
-    "static/js/main.4c452efc.chunk.js"
+    "static/js/main.cf0c056e.chunk.js"
   ]
 }
