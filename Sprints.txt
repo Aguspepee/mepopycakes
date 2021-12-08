@@ -1,0 +1,37 @@
+Sprints
+
+- Agregar funcion eliminar producto --- OK ---
+- Agregar función editar producto --- OK ---
+- Agregar función carrito (despliegue lateral) --- OK ---
+- Dar formato a tarjeta:
+	- Sombra en la tarjeta en el hover --- OK ---
+	- Mostrar barra de edición/eliminar en el hover para admin
+	- Agregar carrousel de imagenes
+	- Agregar cantidad de porciones
+	- Hacer que todas las cards tengan el mismo tamaño
+	- Mostrar tarjeta durante el loading con los componentes de bootstrap
+	- Dar style (general)
+- Agregar features al registro de productos
+	- Agregar tipo de producto --- OK ---
+	- Agregar tamaño de producto 
+- Bloques de productos por filtro según tipo de producto --- OK --- 
+- Agregar Vanners (Imágenes)
+- Pagina EditarProductoPage:
+	- Realizar formulario con datos precargados
+	- Agregar la función para modificar imagenes 
+- Cart:
+	- Agregar formulario cliente
+	- Agregar confirmar compra
+- CartProduct
+	- Agregar eliminar del carrito
+	- Agregar limpiar carrito
+	- Agregar cantidad al producto
+	- Agregar tamaño al producto
+	
+- Al finalizar la compra: 
+	- Agregar enviar mail al admin
+	- Agregar enviar mail al comprador
+- Listado de productos: 
+	- Dar formato de carrousel scrolleable y responsive
+- Formularios
+	- Componetizar todos los Formularios
