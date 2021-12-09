@@ -1,0 +1,10 @@
+.ProductoCart{
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+
+}
+
+.ProductoCartImagen{
+    border-radius: 0px!important;
+}

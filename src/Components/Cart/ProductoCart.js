@@ -9,14 +9,15 @@ import Typography from '@mui/material/Typography';
 import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
+import './ProductoCart.css';
 
 export default function ProductoCart(props) {
   const theme = useTheme();
   const { datos } = props
 
   return (
-    <Card sx={{ display: 'flex' }}>
-      <CardMedia
+    <Card className="ProductoCart" sx={{ display: 'flex' }}>
+      <CardMedia className="ProductoCartImagen"
         component="img"
         sx={{ width: 151 }}
         image={datos.url}
