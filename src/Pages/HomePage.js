@@ -1,7 +1,7 @@
 import Banner from '../Components/Banner';
 import Productos from '../Components/Productos';
 import Featured from '../Components/Featured';
-import BasicBreadcrumbs from '../Components/BasicBreadcrumbs';
+
 
 
 
@@ -11,7 +11,7 @@ function HomePage() {
         <>
         
             <Banner />
-            <BasicBreadcrumbs />
+            
             <Productos type={"Tortas"} />
             <Productos type={"Tartas"} />
             <Featured />

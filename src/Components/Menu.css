@@ -1,41 +1,41 @@
-
-.navmenu{
-    display: flex !important;
-    border: none  !important;
-    width: 100%;
-    box-shadow: 0px 0px 0px 0px rgba(116, 95, 95, 0.555) !important;
+.navmenu {
+  display: flex !important;
+  border: none !important;
+  width: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(116, 95, 95, 0.555) !important;
 }
 
 .nav {
-    display: flex;
-    transition: all 0.1s linear;
-    position: fixed;
-    z-index: 2000;
-    padding: 10px;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  transition: all 0.1s linear;
   
-  }
+  position: fixed;
+  z-index: 2000;
+  padding: 10px;
+  width: 100%;
+  justify-content: center;
+}
 
-  .scrollNav {
-    display: flex;
-    transition: all 0.5s ease-in;
-    z-index: 2000;
-    background: #ffffff;
-    width: 100%;
-    border-bottom: 1px solid #dddddd;
-    justify-content: center;
-  }
+.scrollNav {
+  display: flex;
+  transition: all 0.5s ease-in;
+  z-index: 2000;
+  background: #ffffff;
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  justify-content: center;
+}
 
-  .signedinas{
-    display: flex !important;
-    justify-content: end !important;
-    padding: 50px;
-    background-color: blue;
-    
-  }
+.signedinas {
+  display: flex !important;
+  justify-content: end !important;
+  padding: 50px;
+  background-color: blue;
+}
 
-  .navcollapse{
-    
+.navcollapse {
+  padding-top: 60px;
+  padding-left: 20px;
 
-  }
+    z-index: 10000 !important;
+}

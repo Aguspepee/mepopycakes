@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import firebase from '../Config/firebase';
 import AuthContext from '../Context/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import './LoginPage.css';
 
 function LoginPage() {
 
@@ -30,7 +31,7 @@ function LoginPage() {
     }
 
     return (
-        <Card>
+        <Card className='BloqueFormulario'>
             <Container fluid className="my-auto">
                 <Form onSubmit={handleSubmit(onSubmit)}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
