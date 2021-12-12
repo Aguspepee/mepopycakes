@@ -18,12 +18,12 @@ Sprints
 - Agregar Vanners (Imágenes)
 - Pagina EditarProductoPage:
 	- Realizar formulario con datos precargados
-	- Agregar la función para modificar imagenes 
+	- Agregar la función para modificar imagenes
 - Cart:
 	- Agregar formulario cliente
 	- Agregar confirmar compra
 - CartProduct
-	- Agregar eliminar del carrito
+	- Agregar eliminar del carrito --- OK ---
 	- Agregar limpiar carrito
 	- Agregar cantidad al producto
 	- Agregar tamaño al producto
@@ -31,7 +31,6 @@ Sprints
 - Al finalizar la compra: 
 	- Agregar enviar mail al admin
 	- Agregar enviar mail al comprador
-- Listado de productos: 
-	- Dar formato de carrousel scrolleable y responsive
-- Formularios
-	- Componetizar todos los Formularios
+- Componetizar
+	- Los imput de los Formularios
+	- Los botones con funciones reutilizables (añadir al carrito, borrar del carrito,etc)
