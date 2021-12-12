@@ -16,7 +16,7 @@ function Cart() {
     <>
       <Offcanvas className="cart" show={show} onHide={handleCloseCart} placement="end" scroll="true">
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Carrito de compras <CartNumber /></Offcanvas.Title>
+          <Offcanvas.Title>CARRITO DE COMPRAS <CartNumber /></Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body >
          

@@ -1,15 +1,11 @@
 import React, { useState, useEffect, useContext } from "react";
 import ProductoCart from './ProductoCart';
 import CartContext from '../../Context/CartContext';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
-import Avatar from '@mui/material/Avatar';
-import ImageIcon from '@mui/icons-material/Image';
-import WorkIcon from '@mui/icons-material/Work';
-import BeachAccessIcon from '@mui/icons-material/BeachAccess';
-import Divider from '@mui/material/Divider';
+import IconButton from '@mui/material/IconButton';
+import { Image, Item, Button } from 'semantic-ui-react';
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
+import Tooltip from '@mui/material/Tooltip';
+
 
 
 function ProductosCart() {
@@ -17,22 +13,40 @@ function ProductosCart() {
     const totalPrice = cart.reduce((acc, curr) => parseFloat(acc) + parseFloat(curr.price), 0);
     return (
         <>
-            <h6>Estás a un paso de recibir tus delicias!</h6>
 
-            <List>
+
+            <Item.Group divided>
                 {cart.map(productos => (
                     <>
-                        <ListItem>
-                            <ProductoCart datos={productos} />
+                        <Item>
+                            {/* <ProductoCart datos={productos} /> */}
+                            <Item.Image size='tiny' src={productos.url} />
+                            <Item.Content>
 
-                        </ListItem>
-                        
+                                <Item.Header>{productos.name}
+
+                                    <Tooltip title="Borrar" enterDelay={500} leaveDelay={200}>
+                                        <IconButton sx={{ color: 'gray' }} enterDelay={500} leaveDelay={200}>
+                                            <DeleteOutlineIcon/>
+                                        </IconButton>
+                                    </Tooltip>
+
+                                </Item.Header>
+                                <Item.Meta>
+                                    <span className='price'>${productos.price}</span>
+                                </Item.Meta>
+
+                            </Item.Content>
+
+
+                        </Item>
+
                     </>
 
 
                 ))}
 
-            </List>
+            </Item.Group>
 
 
 

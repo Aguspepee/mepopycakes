@@ -4,18 +4,26 @@ import { Link } from 'react-router-dom';
 import CartNumber from './Cart/CartNumber';
 import { StickyNav } from 'react-js-stickynav';
 import 'react-js-stickynav/dist/index.css';
-import './Menu.css'
+import './Menu.css';
+import LoginMenu from './LoginMenu';
+
 
 function Menu() {
 
 
   return (
-    <div>
+    <div >
+      
       <AuthContext.Consumer>
+      
         {
           context =>
-            <StickyNav length='40'>
-              <Navbar className="navmenu" expand="xlg" sticky="top">
+          <>
+
+          <StickyNav length='40'>
+              
+              <Navbar className="navmenu" expand="xlg" position="static">
+              
                 <Navbar.Brand href="#home">
                   M.E. Popy Cakes
                 </Navbar.Brand>
@@ -26,7 +34,7 @@ function Menu() {
                   aria-labelledby="offcanvasNavbarLabel"
                   placement="start"
                 >
-                  
+
                   <Navbar.Collapse  className="navcollapse">
                     <Nav
                       className="me-auto my-2 my-lg-0"
@@ -56,6 +64,8 @@ function Menu() {
                 </Navbar.Offcanvas>
               </Navbar>
             </StickyNav>
+          </>
+            
         }
       </AuthContext.Consumer>
     </div>

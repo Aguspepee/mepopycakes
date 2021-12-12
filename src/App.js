@@ -16,6 +16,8 @@ import CartProvider from './Context/CartProvider';
 import Footer from './Components/Footer';
 import Cart from './Components/Cart/Cart';
 import { Container } from 'react-bootstrap';
+import LoginMenu from './Components/LoginMenu';
+import 'semantic-ui-css/semantic.min.css'
 
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
                 <CartProvider>
                     <Cart/>
                     <BrowserRouter>
+
                         <Menu />
                         <Routes>
                             <Route path="mepopycakes/" element={<HomePage />} />

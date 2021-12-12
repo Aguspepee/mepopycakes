@@ -1,6 +1,6 @@
 .carousel{
     display: flex !important;
-    position: relative !important;
+    position: static !important;
     z-index: 10;
 } 
 .navegacion{
