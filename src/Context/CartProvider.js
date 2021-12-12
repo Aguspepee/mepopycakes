@@ -27,8 +27,12 @@ function CartProvider(porps) {
     }
 
     //Eliminar del carrito de compras
-    const deleteFromCart = () => {
-        console.log("Eliminar del carrito")
+    const deleteFromCart = (producto) => {
+        setCart(cart.filter(cart=> cart.id!==producto))
+
+
+        console.log("Eliminar del carrito",producto)
+        console.log("Carrito",cart)
     }
 
     //Limpiar carrito de compras

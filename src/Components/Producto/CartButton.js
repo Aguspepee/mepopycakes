@@ -8,7 +8,7 @@ import CartContext from '../../Context/CartContext';
 
 
 function CartButton(props) {
-    const { producto } = props
+    const { producto } = (props)
     const [cart, setCart, setShow, show, handleCloseCart, handleShowCart, addToCart,] = useContext(CartContext);
     const handleClick = () => {
         addToCart(producto)

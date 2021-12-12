@@ -4,16 +4,22 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import SkipNextIcon from '@mui/icons-material/SkipNext';
 import './ProductoCart.css';
+import { useContext } from "react";
+import CartContext from '../../Context/CartContext';
+import Tooltip from '@mui/material/Tooltip';
+import IconButton from '@mui/material/IconButton';
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 
 export default function ProductoCart(props) {
   const theme = useTheme();
   const { datos } = props
+  const [cart, setCart, setShow, show, handleCloseCart, handleShowCart, addToCart, deleteFromCart] = useContext(CartContext);
+  const deleteItem = (id) => {
+    const producto=id
+    deleteFromCart(producto)
+  }
 
   return (
     <Card className="ProductoCart" sx={{ display: 'flex' }}>
@@ -29,22 +35,19 @@ export default function ProductoCart(props) {
             {datos.name}
           </Typography>
           <Typography variant="subtitle1" color="text.secondary" component="div">
-          ${datos.price}
+            ${datos.price}
           </Typography>
         </CardContent>
         <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
-          {/* <IconButton aria-label="previous">
-            {theme.direction === 'rtl' ? <SkipNextIcon /> : <SkipPreviousIcon />}
+        <Tooltip title="Borrar" enterDelay={500} leaveDelay={200}>
+          <IconButton sx={{ color: 'gray' }} enterDelay={500} leaveDelay={200}>
+            <DeleteOutlineIcon onClick={()=>deleteItem(datos.id)}/>
+            
           </IconButton>
-          <IconButton aria-label="play/pause">
-            <PlayArrowIcon sx={{ height: 38, width: 38 }} />
-          </IconButton>
-          <IconButton aria-label="next">
-            {theme.direction === 'rtl' ? <SkipPreviousIcon /> : <SkipNextIcon />}
-          </IconButton> */}
+        </Tooltip>
         </Box>
       </Box>
-      
+
     </Card>
   );
 }
