@@ -8,12 +8,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1367.7019pt"
-   height="486.13571pt"
-   viewBox="0 0 1367.7019 486.13571"
+   width="154.27254pt"
+   height="51.799355pt"
+   viewBox="0 0 154.27254 51.799354"
    version="1.2"
    id="svg1241"
-   sodipodi:docname="banner.svg"
+   sodipodi:docname="lateral.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
   <metadata
      id="metadata1245">
@@ -44,9 +44,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="1.27125"
-     inkscape:cx="621.6687"
-     inkscape:cy="266.62537"
+     inkscape:zoom="3.595638"
+     inkscape:cx="111.36261"
+     inkscape:cy="-1.1509012"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -676,166 +676,10 @@
          y="222.61115" />
     </clipPath>
   </defs>
-  <use
-     xlink:href="#image48477"
-     transform="matrix(1.1295825,0,0,0.55144475,-5.8703907,-122.75775)"
-     id="use1104"
-     x="0"
-     y="0"
-     width="100%"
-     height="100%"
-     clip-path="url(#clipPath1155)" />
-  <use
-     xlink:href="#image48488"
-     mask="url(#mask0)"
-     transform="matrix(0.52104382,0,0,0.52135175,624.2354,91.71308)"
-     id="use1106"
-     x="0"
-     y="0"
-     width="100%"
-     height="100%"
-     clip-path="url(#clipPath1151)" />
-  <use
-     xlink:href="#image48494"
-     mask="url(#mask1)"
-     transform="matrix(0.78954168,0,0,0.78954168,708.22684,111.45162)"
-     id="use1108"
-     x="0"
-     y="0"
-     width="100%"
-     height="100%"
-     clip-path="url(#clipPath1147)" />
-  <use
-     xlink:href="#image48500"
-     mask="url(#mask2)"
-     transform="matrix(1.0641282,0,0,1.0867697,1209.3318,84.879056)"
-     id="use1110"
-     x="0"
-     y="0"
-     width="100%"
-     height="100%"
-     clip-path="url(#clipPath1143)" />
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1114"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1139)">
-    <use
-       xlink:href="#glyph0-1"
-       x="123"
-       y="191.12"
-       id="use1112"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1118"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1135)">
-    <use
-       xlink:href="#glyph0-2"
-       x="168.19"
-       y="191.12"
-       id="use1116"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1122"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1131)">
-    <use
-       xlink:href="#glyph0-3"
-       x="213.53999"
-       y="191.12"
-       id="use1120"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1126"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1127)">
-    <use
-       xlink:href="#glyph0-4"
-       x="252.03"
-       y="191.12"
-       id="use1124"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1130"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1123)">
-    <use
-       xlink:href="#glyph0-5"
-       x="289.22"
-       y="191.12"
-       id="use1128"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1138"
-     transform="matrix(0.81500546,0,0,0.81500546,38.34387,23.366338)"
-     clip-path="url(#clipPath1115)">
-    <use
-       xlink:href="#glyph0-6"
-       x="376.06"
-       y="191.12"
-       id="use1136"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
-     id="g1142"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1111)">
-    <use
-       xlink:href="#glyph0-7"
-       x="123"
-       y="284.29001"
-       id="use1140"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
-     id="g1146"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1107)">
-    <use
-       xlink:href="#glyph0-8"
-       x="160.19"
-       y="284.29001"
-       id="use1144"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
-     id="g1150"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1103)">
-    <use
-       xlink:href="#glyph0-9"
-       x="205.53"
-       y="284.29001"
-       id="use1148"
-       width="100%"
-       height="100%" />
-  </g>
   <g
      style="fill:#00a194;fill-opacity:1"
      id="g1154"
-     transform="translate(49.907438,18.879056)">
+     transform="translate(-1168.0398,1.3391478)">
     <use
        xlink:href="#glyph0-10"
        x="282.37"
@@ -846,190 +690,8 @@
   </g>
   <g
      style="fill:#00a194;fill-opacity:1"
-     id="g1158"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1099)">
-    <use
-       xlink:href="#glyph0-1"
-       x="304.76999"
-       y="284.29001"
-       id="use1156"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
-     id="g1162"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1095)">
-    <use
-       xlink:href="#glyph0-11"
-       x="349.97"
-       y="284.29001"
-       id="use1160"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
-     id="g1166"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1091)">
-    <use
-       xlink:href="#glyph0-11"
-       x="387"
-       y="284.29001"
-       id="use1164"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1170"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1087)">
-    <use
-       xlink:href="#glyph0-12"
-       x="123"
-       y="377.45999"
-       id="use1168"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1174"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1083)">
-    <use
-       xlink:href="#glyph0-1"
-       x="164.19"
-       y="377.45999"
-       id="use1172"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1178"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1079)">
-    <use
-       xlink:href="#glyph0-13"
-       x="209.38"
-       y="377.45999"
-       id="use1176"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1182"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1075)">
-    <use
-       xlink:href="#glyph0-14"
-       x="269.59"
-       y="377.45999"
-       id="use1180"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1186"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1071)">
-    <use
-       xlink:href="#glyph0-15"
-       x="312.47"
-       y="377.45999"
-       id="use1184"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1190"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1067)">
-    <use
-       xlink:href="#glyph0-16"
-       x="357.82001"
-       y="377.45999"
-       id="use1188"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1194"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1063)">
-    <use
-       xlink:href="#glyph0-5"
-       x="400.16"
-       y="377.45999"
-       id="use1192"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1198"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1059)">
-    <use
-       xlink:href="#glyph0-17"
-       x="448.51001"
-       y="377.45999"
-       id="use1196"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#211e1e;fill-opacity:1"
-     id="g1202"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1055)">
-    <use
-       xlink:href="#glyph0-1"
-       x="494.39999"
-       y="377.45999"
-       id="use1200"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
-     id="g1206"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1051)">
-    <use
-       xlink:href="#glyph0-4"
-       x="123"
-       y="470.63"
-       id="use1204"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
-     id="g1210"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1047)">
-    <use
-       xlink:href="#glyph0-5"
-       x="160.19"
-       y="470.63"
-       id="use1208"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
      id="g1214"
-     transform="translate(49.907438,18.879056)">
+     transform="translate(-1168.0398,1.3391478)">
     <use
        xlink:href="#glyph0-10"
        x="208.53"
@@ -1040,34 +702,8 @@
   </g>
   <g
      style="fill:#00a194;fill-opacity:1"
-     id="g1218"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1043)">
-    <use
-       xlink:href="#glyph0-18"
-       x="230.94"
-       y="470.63"
-       id="use1216"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
-     id="g1222"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1039)">
-    <use
-       xlink:href="#glyph0-16"
-       x="266.04001"
-       y="470.63"
-       id="use1220"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
      id="g1226"
-     transform="translate(49.907438,18.879056)">
+     transform="translate(-1168.0398,1.3391478)">
     <use
        xlink:href="#glyph0-10"
        x="308.39001"
@@ -1076,43 +712,12 @@
        width="100%"
        height="100%" />
   </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
-     id="g1230"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1035)">
-    <use
-       xlink:href="#glyph0-19"
-       x="330.79001"
-       y="470.63"
-       id="use1228"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
-     id="g1234"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1031)">
-    <use
-       xlink:href="#glyph0-4"
-       x="392.38"
-       y="470.63"
-       id="use1232"
-       width="100%"
-       height="100%" />
-  </g>
-  <g
-     style="fill:#00a194;fill-opacity:1"
-     id="g1238"
-     transform="matrix(0.81500546,0,0,0.81500546,72.84387,23.366338)"
-     clip-path="url(#clipPath1027)">
-    <use
-       xlink:href="#glyph0-2"
-       x="429.57001"
-       y="470.63"
-       id="use1236"
-       width="100%"
-       height="100%" />
-  </g>
+  <path
+     style="fill:none;stroke:#414042;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 5.9612842,49.090096 20.2328998,-21.484365 20.4414,22.31871 21.0672,-22.31871 20.0242,22.31871 20.441496,-22.527292 21.0672,22.527292 20.65,-22.31871 7.5091,8.13486"
+     id="path1050" />
+  <path
+     style="fill:none;stroke:#414042;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 5.8649842,23.567858 26.097884,2.0834928 l 20.4414,22.3187102 21.0672,-22.3187102 20.0242,22.3187102 20.441496,-22.5272922 21.0672,22.5272922 20.65,-22.3187102 7.5091,8.1348602"
+     id="path1050-9" />
 </svg>
