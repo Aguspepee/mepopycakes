@@ -15,21 +15,16 @@ import AuthProvider from './Context/AuthProvider';
 import CartProvider from './Context/CartProvider';
 import Footer from './Components/Footer';
 import Cart from './Components/Cart/Cart';
-import { Container } from 'react-bootstrap';
-import LoginMenu from './Components/LoginMenu';
 import 'semantic-ui-css/semantic.min.css'
 
 
 function App() {
     return (
-
         <>
-
             <AuthProvider>
                 <CartProvider>
-                    <Cart/>
+                    <Cart />
                     <BrowserRouter>
-
                         <Menu />
                         <Routes>
                             <Route path="mepopycakes/" element={<HomePage />} />
@@ -39,12 +34,11 @@ function App() {
                             <Route path="mepopycakes/EditarProductoPage" element={<EditarProductoPage />} />
                             <Route path="mepopycakes/producto/:id" element={<DetallePage />} />
                         </Routes>
-
                     </BrowserRouter>
                     <Footer />
                 </CartProvider>
             </AuthProvider>
-            </>
+        </>
 
     );
 }

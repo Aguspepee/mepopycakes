@@ -3,7 +3,7 @@ import g869 from '../Images/featured.jpeg';
 
 function Featured() {
   return (
-    <Card data-aos="fade-left" className="text-center">
+    <Card data-aos="fade-up" className="text-center">
       <Card.Header>Ofertas</Card.Header>
       <Card.Body>
         

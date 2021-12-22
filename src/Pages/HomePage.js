@@ -8,8 +8,7 @@ import BasicBreadcrumbs from '../Components/BasicBreadcrumbs';
 function HomePage() {
 
     return (
-        <>
-        
+        <>       
             <Banner />
             <BasicBreadcrumbs  />
             <Productos type={"Tortas"} />
@@ -17,10 +16,6 @@ function HomePage() {
             <Featured />
             <Productos type={"Tarteletas"} />
             <Productos type={"Minitortas"} />
-            
-
-
-
         </>
     );
 };

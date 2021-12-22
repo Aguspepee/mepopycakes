@@ -2,7 +2,6 @@
     display: grid;
     background-image: url("../Images/banner/fondo.svg");
     grid-template-columns: 50% 40% 10%;
-
 }   
 
 .imagen{
@@ -21,7 +20,7 @@ width: 80%;
 
 .lateral{
     padding: 70px 100px 0px 0px;
-    width: 10%;
+    width: 20%;
     
     border-color: black;
 }
@@ -30,7 +29,6 @@ width: 80%;
 @media screen and (max-width:780px ){
     .grid{
         display: grid;
-        background-color: aqua;
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto ;
     
