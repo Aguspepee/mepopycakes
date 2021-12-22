@@ -1,15 +1,55 @@
-.carousel{
-    display: flex !important;
-    position: relative !important;
-    z-index: 10!important;
-} 
-.navegacion{
-    padding: 20px !important;
-    position: absolute!important;
-    z-index: 100!important;
-    background: rgba(255, 255, 255, 0.445) !important;
-    bottom: 0%!important;
-    width: 100%!important;
+.grid{
+    display: grid;
+    background-image: url("../Images/banner/fondo.svg");
+    grid-template-columns: 50% 40% 10%;
+
+}   
+
+.imagen{
+padding: 80px 20px 30px 20px;
+text-align: center;
+width: 80%;
+
+}
+
+.texto{
+    padding: 90px 10px 30px 90px;
+    text-align: center;
+    width: 68%;
+
+}
+
+.lateral{
+    padding: 70px 100px 0px 0px;
+    width: 10%;
+    
+    border-color: black;
+}
+
+
+@media screen and (max-width:780px ){
+    .grid{
+        display: grid;
+        background-color: aqua;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto ;
+    
+    }   
+
+    .imagen{
+        padding: 0px 60px 40px 60px;
+        text-align: center;
+        width: 100%;
     }
 
+    .texto{
+        padding: 70px 10px 30px 70px;
+        text-align: center;
+        width: 68%;
     
+    }
+
+    .lateral{
+        display: none;
+    }
+}
