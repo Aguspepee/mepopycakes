@@ -1,14 +1,15 @@
 .carousel{
     display: flex !important;
-    position: static !important;
-    z-index: 10;
+    position: relative !important;
+    z-index: 10!important;
 } 
 .navegacion{
     padding: 20px !important;
-    position: absolute;
-    z-index: 100;
+    position: absolute!important;
+    z-index: 100!important;
     background: rgba(255, 255, 255, 0.445) !important;
-    bottom: 0%;
-    width: 100%;
+    bottom: 0%!important;
+    width: 100%!important;
     }
+
     

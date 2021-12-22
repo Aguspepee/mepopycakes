@@ -6,6 +6,7 @@ import { StickyNav } from 'react-js-stickynav';
 import 'react-js-stickynav/dist/index.css';
 import './Menu.css';
 import LoginMenu from './LoginMenu';
+import Logo from './Logo/Logo';
 
 
 function Menu() {
@@ -25,7 +26,8 @@ function Menu() {
               <Navbar className="navmenu" expand="xlg" position="static">
               
                 <Navbar.Brand href="#home">
-                  M.E. Popy Cakes
+                  
+                  <Logo/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="offcanvasNavbar" />
                 

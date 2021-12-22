@@ -1,0 +1,24 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.logo {
+  padding: 20px !important;
+  z-index: 100 !important;
+  animation: rotation 5s infinite linear;
+  bottom: 50% !important;
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+}
+
+.logotext{
+    font-family: 'Cookie', cursive;
+    padding: 0px;
+  }
+  

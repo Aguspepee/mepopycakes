@@ -1,14 +1,20 @@
 import { Card, Button } from 'react-bootstrap/';
+import g869 from '../Images/featured.jpeg';
 
 function Featured() {
   return (
-    <Card data-aos="fade-up" className="text-center">
+    <Card data-aos="fade-left" className="text-center">
       <Card.Header>Ofertas</Card.Header>
       <Card.Body>
         
         <Card.Title>Los productos destacados</Card.Title>
         <Card.Text>
-          Aca van a ir los destacados
+        <img
+          className="d-block w-100"
+          src={g869}
+          alt="First slide"
+          
+        />
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
