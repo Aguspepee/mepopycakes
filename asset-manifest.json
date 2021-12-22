@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/mepopycakes/static/css/main.78aada5f.chunk.css",
-    "main.js": "/mepopycakes/static/js/main.55818039.chunk.js",
-    "main.js.map": "/mepopycakes/static/js/main.55818039.chunk.js.map",
-    "runtime-main.js": "/mepopycakes/static/js/runtime-main.f3d0895d.js",
-    "runtime-main.js.map": "/mepopycakes/static/js/runtime-main.f3d0895d.js.map",
+    "main.css": "/mepopycakes/static/css/main.cae0afe6.chunk.css",
+    "main.js": "/mepopycakes/static/js/main.06f2da76.chunk.js",
+    "main.js.map": "/mepopycakes/static/js/main.06f2da76.chunk.js.map",
+    "runtime-main.js": "/mepopycakes/static/js/runtime-main.1d8a2324.js",
+    "runtime-main.js.map": "/mepopycakes/static/js/runtime-main.1d8a2324.js.map",
     "static/css/2.f7eb4f23.chunk.css": "/mepopycakes/static/css/2.f7eb4f23.chunk.css",
-    "static/js/2.a3210494.chunk.js": "/mepopycakes/static/js/2.a3210494.chunk.js",
-    "static/js/2.a3210494.chunk.js.map": "/mepopycakes/static/js/2.a3210494.chunk.js.map",
-    "static/js/3.7ad09c36.chunk.js": "/mepopycakes/static/js/3.7ad09c36.chunk.js",
-    "static/js/3.7ad09c36.chunk.js.map": "/mepopycakes/static/js/3.7ad09c36.chunk.js.map",
+    "static/js/2.00f9ecee.chunk.js": "/mepopycakes/static/js/2.00f9ecee.chunk.js",
+    "static/js/2.00f9ecee.chunk.js.map": "/mepopycakes/static/js/2.00f9ecee.chunk.js.map",
+    "static/js/3.4dbcc04d.chunk.js": "/mepopycakes/static/js/3.4dbcc04d.chunk.js",
+    "static/js/3.4dbcc04d.chunk.js.map": "/mepopycakes/static/js/3.4dbcc04d.chunk.js.map",
     "index.html": "/mepopycakes/index.html",
     "static/css/2.f7eb4f23.chunk.css.map": "/mepopycakes/static/css/2.f7eb4f23.chunk.css.map",
-    "static/css/main.78aada5f.chunk.css.map": "/mepopycakes/static/css/main.78aada5f.chunk.css.map",
-    "static/js/2.a3210494.chunk.js.LICENSE.txt": "/mepopycakes/static/js/2.a3210494.chunk.js.LICENSE.txt",
+    "static/css/main.cae0afe6.chunk.css.map": "/mepopycakes/static/css/main.cae0afe6.chunk.css.map",
+    "static/js/2.00f9ecee.chunk.js.LICENSE.txt": "/mepopycakes/static/js/2.00f9ecee.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/mepopycakes/static/media/arrow_right.f7c6ac6d.svg",
-    "static/media/banner.19b2cede.jpg": "/mepopycakes/static/media/banner.19b2cede.jpg",
+    "static/media/banner.34c27762.svg": "/mepopycakes/static/media/banner.34c27762.svg",
     "static/media/semantic.min.css": "/mepopycakes/static/media/outline-icons.ddae9b1b.woff",
-    "static/media/all.min.css": "/mepopycakes/static/media/fa-solid-900.eeccf4f6.woff"
+    "static/media/all.min.css": "/mepopycakes/static/media/fa-solid-900.eeccf4f6.woff",
+    "static/media/featured.2d9015ff.jpeg": "/mepopycakes/static/media/featured.2d9015ff.jpeg",
+    "static/media/me_edit.389ee185.svg": "/mepopycakes/static/media/me_edit.389ee185.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3d0895d.js",
+    "static/js/runtime-main.1d8a2324.js",
     "static/css/2.f7eb4f23.chunk.css",
-    "static/js/2.a3210494.chunk.js",
-    "static/css/main.78aada5f.chunk.css",
-    "static/js/main.55818039.chunk.js"
+    "static/js/2.00f9ecee.chunk.js",
+    "static/css/main.cae0afe6.chunk.css",
+    "static/js/main.06f2da76.chunk.js"
   ]
 }
