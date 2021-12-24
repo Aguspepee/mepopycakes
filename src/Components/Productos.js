@@ -56,20 +56,16 @@ function Productos(props) {
     )
 
     return (
-        <div data-aos="fade-up">
-
-            <h2 className="nombregrupo">{type}</h2>
-            <Container className="productoslista">
-
+        <div className="productos" data-aos="fade-up">
+            <h2 className="nombregrupo">{type.toUpperCase()}</h2>
                 <Row xs={1} sm={2} md={2} lg={4} xl={4} >
                     {productos.filter(productosFiltrados => productosFiltrados.data().type === type).map(productosFiltrados => (
-                        <Col className="productoslista">
+                        <Col >
                             <Producto datos={{ ...productosFiltrados.data(), id: productosFiltrados.id }} handleDelete={handleDelete} />
                         </Col>
                     )
                     )}
                 </Row>
-            </Container>
         </div>
     );
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
 .grid{
     display: grid;
     background-image: url("../Images/banner/fondo.svg");
@@ -8,21 +10,23 @@
 padding: 80px 20px 30px 20px;
 text-align: center;
 width: 80%;
-
+/* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
 }
 
 .texto{
+    font-family: 'Roboto Condensed', sans-serif;
     padding: 90px 10px 30px 90px;
-    text-align: center;
+    text-align: left;
+    line-height: 0.1em;
     width: 68%;
-
+    letter-spacing: 0.15em;
+    font-size: calc(2vw)
 }
 
 .lateral{
-    padding: 70px 100px 0px 0px;
-    width: 20%;
-    
-    border-color: black;
+    padding: 70px 0px 0px 0px;
+    width: 100%;
+    display: flex;
 }
 
 
@@ -31,7 +35,6 @@ width: 80%;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto ;
-    
     }   
 
     .imagen{
@@ -44,7 +47,6 @@ width: 80%;
         padding: 70px 10px 30px 70px;
         text-align: center;
         width: 68%;
-    
     }
 
     .lateral{

@@ -9,8 +9,8 @@ export default function BasicBreadcrumbs() {
   return (
     
 
-      <Breadcrumbs aria-label="breadcrumb">
-        <Link underline="hover" color="inherit" href="/">
+      <Breadcrumbs className="BreadCrumbs" aria-label="breadcrumb">
+        <Link  underline="hover" color="inherit" href="/">
           MUI
         </Link>
         <Link

@@ -1,14 +1,10 @@
-.productoslista{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 0px 10px 0px 10px;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
 .nombregrupo{
-    font-family: 'Nunito', sans-serif;
-    
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
+.productos{
+    padding: 1em 2em 1em 2em;
+}
 

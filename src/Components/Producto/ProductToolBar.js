@@ -28,7 +28,7 @@ function ProductToolBar(props) {
           <>
             <Tooltip title="Editar" enterDelay={500} leaveDelay={200}>
               <IconButton sx={{ color: 'white' }} enterDelay={500} leaveDelay={200}>
-                <Link to={"/producto/" + datos.id}><EditIcon sx={{ color: 'white' }} /></Link>
+                <Link to={"/mepopycakes/producto/" + datos.id}><EditIcon sx={{ color: 'white' }} /></Link>
               </IconButton>
             </Tooltip>
             <Tooltip title="Borrar" enterDelay={500} leaveDelay={200}>
