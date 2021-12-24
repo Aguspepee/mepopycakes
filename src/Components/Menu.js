@@ -12,50 +12,41 @@ function Menu() {
 
 
   return (
-    <div >
-      
+    <div>
       <AuthContext.Consumer>
-      
         {
           context =>
-          <>
-
-          <StickyNav length='40'>
-              
-              <Navbar className="navmenu" expand="lg" position="static">
-              
-                <Navbar.Brand href="/mepopycakes/">
-                  <Logo/>
-                </Navbar.Brand>
-
-                <Navbar.Toggle aria-controls="offcanvasNavbar"/>
-                  
-                  <Navbar.Collapse  className="navcollapse">
-                    <Nav
-                      
+            <>
+              <StickyNav length='30'>
+                <Navbar className="navmenu" expand="lg" position="static">
+                  <Navbar.Brand href="/mepopycakes/">
+                    <Logo />
+                  </Navbar.Brand>
+                  <Navbar.Toggle aria-controls="offcanvasNavbar" />
+                  <Navbar.Collapse className="navcollapse">
+                    <Nav 
                     >
-                      <Nav.Link as={Link} to="mepopycakes/">Home</Nav.Link>
+                      <Nav.Link className='menuButton' as={Link} to="mepopycakes/">HOME</Nav.Link>
                       {
                         context.userLogin &&
                         <>
-                          <Nav.Link as={Link} to="mepopycakes/AltaProductoPage">Alta Producto</Nav.Link>
-                          <Nav.Link onClick={context.logoutUser}>Salir</Nav.Link>
+                          <Nav.Link className='menuButton' as={Link} to="mepopycakes/AltaProductoPage">ALTA PRODUCTO</Nav.Link>
+                          <Nav.Link className='menuButton' onClick={context.logoutUser}>SALIR</Nav.Link>
                         </>
                       }
                       {
                         !context.userLogin &&
                         <>
-                          <Nav.Link as={Link} to="mepopycakes/LoginPage">Login</Nav.Link>
-                          <Nav.Link as={Link} to="mepopycakes/RegisterPage">Registrarse</Nav.Link>
+                          <Nav.Link className='menuButton' as={Link} to="mepopycakes/LoginPage">LOGIN</Nav.Link>
+                          <Nav.Link className='menuButton' as={Link} to="mepopycakes/RegisterPage">REGISTRARSE</Nav.Link>
                         </>
                       }
                     </Nav>
                     <CartNumber />
                   </Navbar.Collapse>
-              </Navbar>
-            </StickyNav>
-          </>
-            
+                </Navbar>
+              </StickyNav>
+            </>
         }
       </AuthContext.Consumer>
     </div>
