@@ -3,16 +3,18 @@
 .navmenu {
   
   width: 100% !important;
-  height: 100% !important;
+  
   box-shadow: 0px 0px 0px 0px rgb(255, 255, 255) !important;
+  margin: 0px !important;
 }
 
 .nav {
-  display: flex !important;;
+
   transition: all 0.1s linear !important;
   position: fixed !important;
   z-index: 2000 !important;
   width: 100% !important;
+  margin: 0px !important;
 }
 
 .scrollNav {
@@ -23,18 +25,20 @@
   background: #ffffff !important;
   width: 100%;
   border-bottom: 1px solid #dddddd;
+  margin: 0px !important;
 }
 
 .menuButton {
   padding-top: 17px !important;
+  padding-bottom: 0px !important;
   height: 50px;
   font-family: "Roboto Condensed", sans-serif;
   color: rgb(44, 34, 26);
 }
 
 .menuButton:hover {
-  border-bottom: 3px solid rgba(0, 161, 147, 0.788);
-  transform: color rgb(44, 34, 26); ;
+  border-bottom: 3px solid #F57333;
+  transform: color rgb(44, 34, 26);
   transition: all 0.1s linear;
 }
 

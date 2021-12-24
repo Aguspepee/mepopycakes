@@ -2,6 +2,8 @@ import imagen from '../Images/banner/imagen.svg';
 import texto from '../Images/banner/texto.svg';
 import lateral from '../Images/banner/lateral.svg';
 import './Banner.css';
+import BasicBreadcrumbs from '../Components/BasicBreadcrumbs';
+
 
 function Banner() {
   return (
@@ -31,6 +33,7 @@ function Banner() {
           alt="First slide"
         />
       </div>
+      <BasicBreadcrumbs  />
     </div>
   );
 };

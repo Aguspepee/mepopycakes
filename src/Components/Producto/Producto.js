@@ -16,7 +16,7 @@ function Producto(props) {
   return (
     <div className="productoContainer">
       <Card className="cardproduct" >
-        <ProductToolBar handleDelete={handleDelete} datos={datos} />
+        {/* <ProductToolBar handleDelete={handleDelete} datos={datos} /> */}
         <Card.Img variant="top" src={datos.url} />
         <Card.Body>
           <Card.Title className="productTitle">{datos.name.toUpperCase()}</Card.Title>
