@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mepopycakes/static/css/main.69394728.chunk.css",
-    "main.js": "/mepopycakes/static/js/main.e3b5cdc8.chunk.js",
-    "main.js.map": "/mepopycakes/static/js/main.e3b5cdc8.chunk.js.map",
+    "main.css": "/mepopycakes/static/css/main.6f9ef638.chunk.css",
+    "main.js": "/mepopycakes/static/js/main.95286595.chunk.js",
+    "main.js.map": "/mepopycakes/static/js/main.95286595.chunk.js.map",
     "runtime-main.js": "/mepopycakes/static/js/runtime-main.9531a4d6.js",
     "runtime-main.js.map": "/mepopycakes/static/js/runtime-main.9531a4d6.js.map",
     "static/css/2.f7eb4f23.chunk.css": "/mepopycakes/static/css/2.f7eb4f23.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.08f9b7b4.chunk.js.map": "/mepopycakes/static/js/3.08f9b7b4.chunk.js.map",
     "index.html": "/mepopycakes/index.html",
     "static/css/2.f7eb4f23.chunk.css.map": "/mepopycakes/static/css/2.f7eb4f23.chunk.css.map",
-    "static/css/main.69394728.chunk.css.map": "/mepopycakes/static/css/main.69394728.chunk.css.map",
+    "static/css/main.6f9ef638.chunk.css.map": "/mepopycakes/static/css/main.6f9ef638.chunk.css.map",
     "static/js/2.ef32455c.chunk.js.LICENSE.txt": "/mepopycakes/static/js/2.ef32455c.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/mepopycakes/static/media/arrow_right.f7c6ac6d.svg",
     "static/media/semantic.min.css": "/mepopycakes/static/media/outline-icons.ddae9b1b.woff",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.9531a4d6.js",
     "static/css/2.f7eb4f23.chunk.css",
     "static/js/2.ef32455c.chunk.js",
-    "static/css/main.69394728.chunk.css",
-    "static/js/main.e3b5cdc8.chunk.js"
+    "static/css/main.6f9ef638.chunk.css",
+    "static/js/main.95286595.chunk.js"
   ]
 }
