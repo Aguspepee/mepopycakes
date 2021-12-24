@@ -14,17 +14,21 @@ function Producto(props) {
   const { datos, handleDelete } = props
 
   return (
-    <Card className="cardproduct" >
-      <ProductToolBar handleDelete={handleDelete} datos={datos} />
-      <Card.Img variant="top" src={datos.url} />
-      <Card.Body>
-        <Card.Title>{datos.name}</Card.Title>
-        <Card.Text>
-          ${datos.price} <CartButton producto={datos} />
-        </Card.Text>
-        
-      </Card.Body>
-    </Card>
+    <div className="productoContainer">
+      <Card className="cardproduct" >
+        <ProductToolBar handleDelete={handleDelete} datos={datos} />
+        <Card.Img variant="top" src={datos.url} />
+        <Card.Body>
+          <Card.Title className="productTitle">{datos.name.toUpperCase()}</Card.Title>
+          <Card.Text className="productPrice">
+            ${datos.price} <CartButton producto={datos} />
+          </Card.Text>
+
+        </Card.Body>
+      </Card>
+
+    </div>
+
   )
 };
 export default Producto;

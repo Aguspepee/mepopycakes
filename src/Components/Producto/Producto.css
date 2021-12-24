@@ -1,9 +1,7 @@
 .cardproduct:hover{
-    box-shadow: 5px 10px 50px 1px rgba(116, 95, 95, 0.555) !important;
+    box-shadow: 5px 10px 20px 1px rgba(116, 95, 95, 0.555) !important;
     transform: scale(1.05);
-
     transition:  all 0.1s linear !important;
-
 }
 
 .cardproduct{
@@ -11,4 +9,9 @@
     justify-content: center;
     opacity: 1;
     
+}
+
+.productoContainer{
+    padding-bottom: 1em;
+
 }
