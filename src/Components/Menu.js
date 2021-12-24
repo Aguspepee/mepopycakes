@@ -18,7 +18,7 @@ function Menu() {
           context =>
             <>
               <StickyNav length='30'>
-                <Navbar className="navmenu" expand="lg" position="static">
+                <Navbar className="navmenu" expand="lg" position="static" >
                   <Navbar.Brand href="/mepopycakes/">
                     <Logo />
                   </Navbar.Brand>
