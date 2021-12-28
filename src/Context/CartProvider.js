@@ -23,8 +23,8 @@ function CartProvider(porps) {
     //Añadir al carrito de compras
     const addToCart = (producto) => {
         //Si ya está en el carrito incrementa la cantidad
-        if (cart.find(cart => cart.id == producto.id)) {
-            cart[cart.findIndex(cart => cart.id == producto.id)].quantity++
+        if (cart.find(cart => cart.id === producto.id)) {
+            cart[cart.findIndex(cart => cart.id === producto.id)].quantity++
             //Si no está en el carrito lo agrega
         } else {
             setCart(cart => [{ ...producto, quantity: 1 }, ...cart])
@@ -36,17 +36,17 @@ function CartProvider(porps) {
     const incrementQuantity = (producto) => {
         console.log("funcionaaaaaa")
         //Si ya está en el carrito incrementa la cantidad
-        if (cart.find(cart => cart.id == producto.id)) {
-            cart[cart.findIndex(cart => cart.id == producto.id)].quantity++
+        if (cart.find(cart => cart.id === producto.id)) {
+            cart[cart.findIndex(cart => cart.id === producto.id)].quantity++
         }
     }
 
     //Decrementar cantidad de producto
     const decrementQuantity = (producto) => {
         //Si ya está en el carrito decrementa la cantidad
-        if (cart.find(cart => cart.id == producto.id)) {
-            if (cart[cart.findIndex(cart => cart.id == producto.id)].quantity > 1) {
-                cart[cart.findIndex(cart => cart.id == producto.id)].quantity--
+        if (cart.find(cart => cart.id === producto.id)) {
+            if (cart[cart.findIndex(cart => cart.id === producto.id)].quantity > 1) {
+                cart[cart.findIndex(cart => cart.id === producto.id)].quantity--
             } else {
                 deleteFromCart(producto.id)
             }

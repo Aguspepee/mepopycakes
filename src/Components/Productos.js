@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Suspense } from "react";
+import React, { useState, useEffect} from "react";
 import Producto from './Producto/Producto';
 import firebase from '../Config/firebase';
 import { Row, Col } from "react-bootstrap";
