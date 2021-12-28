@@ -39,7 +39,7 @@ export default function ProductoCart(props) {
           </div>
         </CardContent>
         <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
-          <Quantity />
+          <Quantity quantity={datos.quantity}/>
           <Tooltip title="Borrar" enterDelay={500} leaveDelay={200}>
             <IconButton sx={{ color: 'gray' }} enterDelay={500} leaveDelay={200}>
               <DeleteOutlineIcon onClick={() => deleteItem(datos.id)} />

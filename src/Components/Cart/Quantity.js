@@ -1,8 +1,9 @@
 import React, { setState, useState } from "react";
 import './Quantity.css';
 
-function Quantity() {
-  const [quantity, setQuantity] = useState(1);
+function Quantity(props) {
+
+  const [quantity, setQuantity] = useState(props.quantity);
 
   const increment = () => {
     setQuantity(quantity + 1)

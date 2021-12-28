@@ -22,8 +22,15 @@ function CartProvider(porps) {
 
     //Añadir al carrito de compras
     const addToCart = (producto) => {
-        setCart(cart =>[producto,...cart])
-        console.log(cart)
+        if(cart.find(cart=>cart.id==producto.id)){
+            
+            console.log('EXISTEEEEEE', cart.findIndex(cart=>cart.id==producto.id))
+            cart[cart.findIndex(cart=>cart.id==producto.id)].quantity++
+        }else{
+            setCart(cart =>[{...producto, quantity:1},...cart])
+            console.log(JSON.stringify(cart))
+        }
+        
     }
 
     //Eliminar del carrito de compras
