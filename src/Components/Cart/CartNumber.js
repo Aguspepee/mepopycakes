@@ -18,7 +18,17 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 
 
 export default function CartNumber() {
-  const [cart, setCart, setShow, show, handleCloseCart, handleShowCart, addToCart,] = useContext(CartContext);
+  const [cart,
+    setCart,
+    setShowCart,
+    show,
+    handleCloseCart,
+    handleShowCart,
+    addToCart,
+    deleteFromCart,
+    clearCart,
+    incrementQuantity,
+    decrementQuantity] = useContext(CartContext);
   const handleClick = () => {
     handleShowCart()
   }

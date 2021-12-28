@@ -15,7 +15,18 @@ import Quantity from './Quantity';
 export default function ProductoCart(props) {
   const theme = useTheme();
   const { datos } = props
-  const [cart, setCart, setShow, show, handleCloseCart, handleShowCart, addToCart, deleteFromCart] = useContext(CartContext);
+  const [cart,
+    setCart,
+    setShowCart,
+    show,
+    handleCloseCart,
+    handleShowCart,
+    addToCart,
+    deleteFromCart,
+    clearCart,
+    incrementQuantity,
+    decrementQuantity] = useContext(CartContext);
+  
   const deleteItem = (id) => {
     const producto = id
     deleteFromCart(producto)
@@ -39,7 +50,7 @@ export default function ProductoCart(props) {
           </div>
         </CardContent>
         <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
-          <Quantity quantity={datos.quantity}/>
+          <Quantity producto={datos}/>
           <Tooltip title="Borrar" enterDelay={500} leaveDelay={200}>
             <IconButton sx={{ color: 'gray' }} enterDelay={500} leaveDelay={200}>
               <DeleteOutlineIcon onClick={() => deleteItem(datos.id)} />
