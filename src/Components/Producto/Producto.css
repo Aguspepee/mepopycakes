@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
-
 .cardproduct:hover {
   box-shadow: 5px 10px 20px 1px rgba(116, 95, 95, 0.555) !important;
   transform: scale(1.05);

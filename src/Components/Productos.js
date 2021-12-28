@@ -1,12 +1,10 @@
-import React, { useState, useEffect, Highlight } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import Producto from './Producto/Producto';
 import firebase from '../Config/firebase';
-import { Container } from "@mui/material";
 import { Row, Col } from "react-bootstrap";
 import Aos from "aos";
-import "aos/dist/aos.css"
-import './Productos.css'
-
+import "aos/dist/aos.css";
+import './Productos.css';
 
 function Productos(props) {
     const [productos, setProductos] = useState([])
@@ -39,8 +37,6 @@ function Productos(props) {
             console.log("Producto Borrado")
             setReload(true)
         } catch (e) {
-
-
         }
     }
 
@@ -55,19 +51,28 @@ function Productos(props) {
         }, [reload]
     )
 
+
     return (
         <div className="productos" data-aos="fade-up">
             <h2 className="nombregrupo">{type.toUpperCase()}</h2>
-                <Row xs={1} sm={2} md={2} lg={4} xl={4} >
-                    {productos.filter(productosFiltrados => productosFiltrados.data().type === type).map(productosFiltrados => (
-                        <Col >
-                            <Producto datos={{ ...productosFiltrados.data(), id: productosFiltrados.id }} handleDelete={handleDelete} />
-                        </Col>
-                    )
-                    )}
-                </Row>
+            <Row xs={1} sm={2} md={2} lg={4} xl={4} >
+                {productos.filter(productosFiltrados => productosFiltrados.data().type === type).map(productosFiltrados => (
+                    <Col >
+                        <Producto datos={{ ...productosFiltrados.data(), id: productosFiltrados.id }} handleDelete={handleDelete} />
+                    </Col>
+                )
+                )}
+            </Row>
         </div>
     );
+
+
+
+
+
+
+    
+
 }
 
 export default Productos

@@ -8,3 +8,17 @@
 .ProductoCartImagen{
     border-radius: 0px!important;
 }
+
+.ProductoTitulo{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2em !important;
+    letter-spacing: 0.05em !important;
+}
+
+.ProductoPrecio{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1em !important;
+    letter-spacing: 0.05em !important;
+    color: gray;
+
+}
