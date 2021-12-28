@@ -5,28 +5,28 @@
 }
 
 .cardproduct {
-  display: flex;
   justify-content: center;
   opacity: 1;
   border-radius: 0px !important;
   box-shadow: 0px 0px 0px 0px rgba(116, 95, 95, 0.555) !important;
   border-bottom: 1px solid rgba(133, 122, 122, 0.589) !important;
-  background-color: rgba(255, 255, 255, 0.534) !important;
+  background-color: rgba(255, 255, 255, 0) !important;
 }
 
 .productoContainer {
   padding-bottom: 1em;
-  
 }
 
 .productTitle {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 1.3em !important;
-    letter-spacing: 0.05em !important;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.3em !important;
+  letter-spacing: 0.05em !important;
+  padding: 0px 0px 0px 0px;
 }
 
 .productPrice {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 1.2em !important;
-    letter-spacing: 0.05em !important;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.2em !important;
+  letter-spacing: 0.05em !important;
+  padding: 0px 0px 0px 0px;
 }

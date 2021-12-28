@@ -25,7 +25,7 @@ Sprints
 - CartProduct
 	- Agregar eliminar del carrito --- OK ---
 	- Agregar limpiar carrito 
-	- Agregar cantidad al producto
+	- Agregar cantidad al producto --- OK ---
 	- Agregar tamaño al producto
 	
 - Al finalizar la compra: 
@@ -34,6 +34,5 @@ Sprints
 - Componetizar
 	- Los imput de los Formularios
 	- Los botones con funciones reutilizables (añadir al carrito, borrar del carrito,etc)
-
 
 npm run deploy
