@@ -18,15 +18,15 @@
 }
 
 .productTitle {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", sans-serif !important;
   font-size: 1.3em !important;
   letter-spacing: 0.05em !important;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px !important;
 }
 
 .productPrice {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", sans-serif !important;
   font-size: 1.2em !important;
   letter-spacing: 0.05em !important;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px !important;
 }
