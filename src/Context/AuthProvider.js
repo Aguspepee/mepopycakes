@@ -5,18 +5,18 @@ import AuthContext from "./AuthContext";
 
 function AuthProvider(porps) {
 
-    const [userLogin, setUserLogin] = useState(localStorage.getItem("LoginUserMepopycakes"))
+    const [userLogin, setUserLogin] = useState(localStorage.getItem('LoginUserMepopycakes'))
 
 
     const loginUser = () => {
-        localStorage.setItem("LoginUserMepopycakes", true)
+        localStorage.setItem('LoginUserMepopycakes', true)
         setUserLogin(true)
-        console.log("localstate", localStorage.getItem("LoginUserMepopycakes"))
+        //console.log("localstate", localStorage.getItem('LoginUserMepopycakes'))
     }
     const logoutUser = () => {
-        localStorage.setItem("LoginUserMepopycakes", false)
+        localStorage.removeItem('LoginUserMepopycakes', false)
         setUserLogin(false)
-
+        // console.log("localstate", localStorage.getItem('LoginUserMepopycakes'))
     }
 
 

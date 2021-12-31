@@ -32,6 +32,11 @@
   color: gray;
 }
 
-.productActions {
- 
+@media screen and (max-width:780px ){
+/* Desactiva los efectos de hover cuando se usa en pantallas pequeñas, como celulares */
+  .cardproduct:hover {
+    box-shadow: none !important;
+    transform: scale(1);
+  }
+
 }
